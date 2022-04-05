@@ -1,0 +1,11 @@
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\BusinessLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\BusinessLayer.pdb
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\DataLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\ModelLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\DataLayer.pdb
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\bin\Debug\ModelLayer.pdb
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\obj\Debug\BusinessLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\BusinessLayer\obj\Debug\BusinessLayer.pdb

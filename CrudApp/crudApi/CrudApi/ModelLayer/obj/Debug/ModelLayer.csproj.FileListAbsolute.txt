@@ -1,0 +1,6 @@
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\bin\Debug\ModelLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\bin\Debug\ModelLayer.pdb
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\obj\Debug\ModelLayer.csprojAssemblyReference.cache
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\obj\Debug\ModelLayer.csproj.CoreCompileInputs.cache
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\obj\Debug\ModelLayer.dll
+E:\Sarav\CrudDemo\crudApi\CrudApi\ModelLayer\obj\Debug\ModelLayer.pdb
