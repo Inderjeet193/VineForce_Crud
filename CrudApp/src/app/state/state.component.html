@@ -1,0 +1,110 @@
+<!-- <form [formGroup]="stateForm" (ngSubmit)="onFormSubmit()">
+    <table>
+        <tr>
+            <th>State</th>
+            <th> Country</th>
+        </tr>
+        <tr *ngFor="let state of States">
+            <td>{{state.StateName}} </td>
+            <td>{{state.CountryName}}</td>
+            <button type="button" (click)="EditState(state.StateId)">Edit</button>
+        </tr>
+    </table>
+
+    Country: <select formControlName="CountryId">
+        <option value="0">Select Country</option>
+        <option *ngFor="let country of Countries" value="{{country.CountryId}}">
+            {{country.CountryName}}
+        </option>
+
+    </select>
+    State: <input formControlName="stateName" placeholder="state Name">
+    <button type="submit">Submit</button>
+</form> -->
+
+
+
+
+
+
+<form [formGroup]="stateForm" role="form" (ngSubmit)="onFormSubmit()">
+
+    <div class="container">
+        <div class="">
+            <div class="col-xs-12 col-sm-8 col-md-8 col-sm-offset-2 col-md-offset-2">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title"> Please add or update a state </h4>
+                    </div>
+                    <div class="panel-body">
+
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-8 col-md-8">
+                                <div class="form-group">
+                                    <input type="text" formControlName="stateName" name="stateName" id="stateName"
+                                        class="form-control input-sm" placeholder="Enter state name">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-8 col-md-8">
+                                <div class="form-group">
+                                    <select formControlName="CountryId" class="form-control input-sm">
+                                        <option value="0">Select Country</option>
+                                        <option *ngFor="let country of Countries" value="{{country.CountryId}}">
+                                            {{country.CountryName}}
+                                        </option>
+
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-8 col-md-8">
+
+
+                                <input type="submit" value="Submit" class="btn btn-info btn-block">
+                            </div>
+                        </div>
+                        
+                    <div class="lbl">
+                    {{Message}}
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row col-md-12 col-md-offset-2 custyle "
+                style="padding-top:50px ; max-height: 350px; overflow-y: scroll;">
+                <table class="table table-striped custab " style="text-align: center;">
+                    <thead>
+                        <tr>
+                            <th>State ID</th>
+                            <th>State Name</th>
+                            <th>Country Name</th>
+                            <th class="text-center">Action</th>
+                        </tr>
+                    </thead>
+                    <tr *ngFor="let state of States">
+
+                        <td> {{state.StateId}}</td>
+                        <td> {{state.StateName}}</td>
+                        <td> {{state.CountryName}}</td>
+                        <td> <a class='btn btn-info btn-xs' (click)="EditState(state.StateId)"><span
+                                    class="glyphicon glyphicon-edit"></span> Edit</a>
+                            <a style="margin-left: 10px;" (click)="DeleteStateById(state.StateId)"
+                             class=" btn btn-danger btn-xs "><span class="glyphicon glyphicon-remove"></span> Delete</a>
+                        </td>
+
+                    </tr>
+
+                </table>
+            </div>
+
+
+        </div>
+    </div>
+</form>
